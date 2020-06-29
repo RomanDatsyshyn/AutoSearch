@@ -1,0 +1,9 @@
+module.exports.addCar = require('./addCar');
+module.exports.deleteCar = require('./deleteCar');
+module.exports.getCarById = require('./getCarById');
+module.exports.editCarDesc = require('./editCarDesc');
+module.exports.editCarPrice = require('./editCarPrice');
+module.exports.getCarsByParams = require('./getCarsByParams');
+module.exports.addCarToFavorite = require('./addCarToFavorite');
+module.exports.addCarWithoutAuth = require('./addCarWithoutAuth');
+module.exports.removeCarFromFavorite = require('./removeCarFromFavorite');

@@ -1,0 +1,519 @@
+h3 {
+  color: #081f32;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 500;
+  margin: 0;
+}
+button {
+  border: 0;
+  cursor: pointer;
+}
+.txt-22 {
+  font-size: 22px;
+}
+.txt-20 {
+  font-size: 20px;
+}
+.txt-17,
+.txt-17-s {
+  font-size: 17px;
+}
+.txt-16 {
+  font-size: 16px;
+}
+.txt-light {
+  color: #fff;
+}
+.txt-gray {
+  color: #6e798c;
+}
+.txt-dark {
+  color: #000;
+}
+.txt-green {
+  color: #4ab272;
+}
+.txt-center {
+  text-align: center;
+}
+.white {
+  background-color: #fff;
+}
+.gray {
+  background-color: #f0f0f0;
+}
+.black {
+  background-color: #000;
+}
+.blue {
+  background-color: #4992ff;
+}
+.yellow {
+  background-color: #fbd665;
+}
+.add:hover,
+.setting:hover {
+  background-color: rgb(255, 204, 50);
+}
+.login:hover,
+.btn-search:hover,
+.change:hover {
+  background-color: rgb(44, 128, 255);
+}
+.link:hover {
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #007ae9;
+}
+a.login:after {
+  content: 'Увійти до кабінету';
+}
+a.add:after {
+  content: 'Розмістити оголошення';
+}
+.center {
+  margin: 0 auto;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.line {
+  width: 1px;
+  margin: 0 4.8% 0 5%;
+}
+.swadow {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.radius-16 {
+  border-radius: 16px;
+}
+.radius-7 {
+  border-radius: 7px;
+}
+.m-25 {
+  margin: 25px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-form-20 {
+  margin-right: 25px;
+}
+.mr-20-sort {
+  margin-right: 20px;
+}
+.mr-form-10 {
+  margin-right: 13px;
+}
+.mr-form-add-10 {
+  margin-right: 11px;
+}
+.mr-2 {
+  margin-right: 2%;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.pl-5 {
+  padding-left: 10px;
+}
+.pb-5 {
+  padding-bottom: 5px;
+}
+.p-5 {
+  padding: 5px;
+}
+.w-800 {
+  max-width: 800px;
+}
+.w-780 {
+  max-width: 780px;
+}
+.w-600 {
+  max-width: 600px;
+}
+.w-580 {
+  max-width: 580px;
+}
+.w-300 {
+  max-width: 300px;
+  padding: 20px 0 20px 0;
+}
+.w-100 {
+  width: 100%;
+}
+.w-97 {
+  width: 97%;
+}
+.w-97-search {
+  width: 90%;
+}
+.w-95 {
+  width: 95%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-55 {
+  width: 55%;
+}
+.w-47 {
+  width: 47.5%;
+}
+.w-47-sm {
+  width: 47.5%;
+}
+.w-47-sm-pass {
+  width: 47.5%;
+}
+.w-47-sm-add {
+  width: 47.5%;
+}
+.w-45 {
+  width: 45%;
+}
+.w-30 {
+  width: 31%;
+}
+.w-28 {
+  width: 28%;
+}
+.w-21 {
+  width: 21%;
+}
+.w-17 {
+  width: 17%;
+}
+.h-100 {
+  height: 100%;
+}
+.h-30 {
+  height: 30px;
+}
+.h-25 {
+  height: 25px;
+}
+.h-0 {
+  height: 0;
+}
+.col-4 {
+  width: 35%;
+}
+.col-8 {
+  width: 63%;
+}
+header {
+  height: 120px;
+}
+.logo {
+  background-image: url(./img/logo.svg);
+  background-size: 100% 100%;
+}
+.login-logo {
+  background-image: url(./img/logo.svg);
+  background-size: 100% 100%;
+}
+.size-small-logo {
+  width: 45%;
+}
+.size-big-logo {
+  width: 270px;
+}
+.login-page {
+  width: 290px;
+  height: 125px;
+  margin-top: 120px;
+}
+.lg-nav {
+  width: 55%;
+}
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+  font-size: 22px;
+}
+nav {
+  width: 45%;
+  text-align: right;
+}
+.btn {
+  display: inline-block;
+  padding: 13px 17px;
+  margin-top: 8px;
+}
+.btn-search,
+.btn-profile {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0 10px;
+  font-size: 20px;
+}
+select,
+input {
+  cursor: pointer;
+  height: 45px;
+  border: 0;
+  background-color: #ededed;
+  font-size: 18px;
+  color: #757575;
+}
+input:focus {
+  cursor: auto;
+}
+.extension {
+  display: block;
+  height: 46px;
+  background-color: #ededed;
+  background-image: url(./img/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+}
+.extension:hover {
+  background-color: #d3d0d0;
+}
+.rotate {
+  transform: rotate(180deg);
+}
+.row-login {
+  margin: 0 30px 10px 30px;
+}
+.user-icon {
+  display: block;
+  width: 100%;
+  background-image: url(./img/user.svg);
+  background-size: 100% 100%;
+}
+.block {
+  display: block;
+}
+.block-base {
+  margin: 30px 15px 15px 15px;
+  height: 75px;
+}
+.mobile,
+.login-icon {
+  display: none;
+}
+.preloader {
+  background-color: #fff;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999999;
+  text-align: center;
+}
+.preloader-bounce {
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+}
+.preloader-bounce > span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0.3em;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-animation: bounce 0.6s infinite alternate;
+  animation: bounce 0.6s infinite alternate;
+  background: #2959ad;
+}
+.preloader-bounce > span:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  background: #1e1e1e;
+}
+.preloader-bounce > span:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  background: #f4c23d;
+}
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-1.2em);
+    transform: translateY(-1.2em);
+  }
+}
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-1.2em);
+    transform: translateY(-1.2em);
+  }
+}
+@media screen and (max-width: 830px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .w-800,
+  .w-780 {
+    width: 90vw;
+  }
+  .w-97-search {
+    width: 96%;
+  }
+  .col-4,
+  .col-8,
+  .w-55,
+  .w-45,
+  .w-30 {
+    width: 100%;
+  }
+  .w-47-sm-add {
+    width: 47.5%;
+  }
+  .mr-form-add-10 {
+    margin-right: 5%;
+  }
+  .block-base {
+    margin: 10px 15px 15px 15px;
+    height: 75px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .mt-80 {
+    margin-top: 20px;
+  }
+  header {
+    width: 90vw;
+    height: 60px;
+  }
+  .container {
+    width: 90vw;
+  }
+  .add,
+  .login {
+    margin-top: 6px;
+  }
+  a.login:after {
+    content: 'Увійти';
+  }
+  a.add:after {
+    content: 'Розмістити';
+  }
+  .logo {
+    background-image: url(./img/small-logo.svg);
+  }
+  .size-small-logo,
+  .size-big-logo {
+    width: 25%;
+    margin-left: 4%;
+  }
+  nav {
+    width: 55%;
+  }
+  .w-90 {
+    width: 96%;
+  }
+  .mr-form-10 {
+    margin-right: 4%;
+  }
+  .w-47-sm {
+    width: 48%;
+  }
+  .w-47,
+  .w-47-sm-pass {
+    width: 100%;
+  }
+  .mr-20-sort {
+    margin-right: 5px;
+  }
+  .disable {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .add,
+  .login {
+    padding: 13px 10px;
+    font-size: 18px;
+    margin-top: 7px;
+  }
+  nav {
+    width: 56%;
+  }
+  .h-25 {
+    height: 20px;
+  }
+  .txt-17-s {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 382px) {
+  .login {
+    display: none;
+  }
+  .login-icon {
+    display: flex;
+    width: 30px;
+    margin-top: 3px;
+    background-image: url(./img/login.svg);
+    background-size: 100% 100%;
+  }
+  .add {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  header {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 315px) {
+  header,
+  .container,
+  .w-300,
+  .logo-login,
+  .login-page {
+    min-width: 315px;
+  }
+}
